@@ -1,0 +1,182 @@
+# Site
+repository: mabochenek/curriculum-vitae
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Marek Bochenek
+title: Team&Tech Leader
+email: marekbochenekwork@gmai.com
+# Dark Mode (true/false/never)
+darkmode: false
+
+github_username:  mabochenek
+linkedin_username: marek-bochenek-944736121
+about_profile_image: images/profile.jpeg
+about_content: |
+  Hi, my name's Marek and I'm a technical and team leader.
+  I started programming in 2012 when I desired to create my own online game. I accomplished this using PHP technology, and since then, I have remained affiliated with this platform. My ability for effective communication has enabled dynamic development, and my analytical skills have taught me to ask pertinent questions and gain valuable experience.
+  
+  I am most skilled in:
+  
+    Principles/Paradigm: <mark>SOLID</mark><mark>OOP</mark><mark>Hexagonal</mark><mark>DDD</mark><mark>REST API</mark>
+  
+    Backend: <mark>PHP</mark><mark>Symfony</mark><mark>Doctrine</mark><mark>RabbitMQ</mark><mark>Static analysis tool</mark>
+  
+    Frontend: <mark>SASS</mark><mark>Bootstrap</mark><mark>jQuery</mark><mark>RWD</mark>
+  
+    Databases: <mark>SQL</mark><mark>MySQL</mark><mark>Redis</mark>
+  
+    test: <mark>BDD</mark><mark>Detroid style</mark><mark>PHPUnit</mark><mark>Codeception</mark><mark>Mutation</mark>
+  
+    others: <mark>Docker</mark><mark>GIT</mark><mark>xDebug</mark><mark>OpenApi</mark><mark>Monolog</mark>
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: SilkyCoders
+        sub_title: Team & Technical Leader
+        caption: December 2021 - NOW
+        description: |
+          I was transferred to a project aimed at migrating return functionality from the Magento monolith to a microservice. 
+          The project was in its very early stages, with some conventions and frameworks outlined by the architect who left the team shortly before my arrival. 
+          The team lacked the necessary technical competencies, and the project turned into what is commonly referred to as 'spaghetti code'.
+          I initially contributed to the project by understanding its intricacies and processes, but it was only after 2-3 months that I began implementing key technological changes.
+          After another 4 months, I became the team and tech leader for this product.
+          
+          Mainly responsibility
+          - Acquiring knowledge about business and processes in order to appropriately align technological strategy with business needs
+          - Tending to the technological aspects of the product to ensure it is ready for the continuous evolution of business needs
+          - Conducting a training cycle to harmonize business and technical knowledge
+          - To be an inspiration, a positive individual, promote a culture of openness, and care for a good collaborative environment and the development of programmers.
+          
+          Among the achievements of which I am personally proud are
+          - Separating read models from save models by introducing CQS
+          - Reducing database communication through read models by 70% by implementing caching strategies based on Redis
+          - Introducing tools for static code analysis - PHPStan, PHP CS Fixer, PHP Code Sniffer and adjust it to CI
+          - Upgrading from PHP 7.2 to 8.2 and Symfony from 4.4 to 6.3 using the Rector tool.
+          - Successful implementation of the product in production for 5 brands.
+          - Creating a technological backlog that aligned the vision and goal we are pursuing as a team
+          - Introducing asynchronous communication based on RabbitMQ
+          - Conducting event storming to harmonize knowledge along with preparing the C4 model.
+          - Developing application deployment procedures, post-implementation monitoring, and conventions
+          
+          Used technologies
+          - PHP 7.2 - 8.2
+          - Symfony 4.4 - 6.3
+          - Redis, HA, set, list, hashes, AOF, json
+          - RabbitMQ, ha mirroring, direct, topic, fanout, persistence
+          - Infra: k8s, kustomize, helm, okd
+          - Elastic + kibana for logs
+          - Mysql with proxysql 
+
+      - layout: left
+        border: weak
+        title: SilkyCoders
+        sub_title: Senior Software Developer
+        caption: May 2021 - November 2021
+        description: |
+          My task was to support the team in expanding the service that supports the work of the customer service department and in refactoring post-purchase processes, integrating data with other systems.
+          The domain I dealt with was quite extensive. During this time, my main focus was on acquiring business knowledge, sharing my technical expertise, and onboarding new individuals.
+          
+          Used technologies was mentioned in previous entry.
+
+      - layout: left
+        border: weak
+        title: Mobilem
+        sub_title: Senior Software Developer
+        caption: April 2020 - May 2021
+        description: |
+          I was responsible for maintaining the current sales platform and creating a new one for managing online courses. 
+          The new architecture was based on the DDD approach, employing the hexagonal architecture. 
+          The application was orchestrated using Laravel.
+          
+          Responsibility
+          
+          - Domain modeling of business needs
+          - Integration with MS Dynamics as a primary data source.
+          - Code review, mentoring, training, event storming sessions
+          - Team management
+
+      - layout: left
+        border: weak
+        title: Freshmail
+        sub_title: Software PHP Developer
+        caption: June 2018 - March 2020
+        description: |
+          I was responsible for creating new software that enables comprehensive service delivery for clients. 
+          The application serves as a primary source of information about the company's finances. 
+          We implemented the event sourcing, CQRS, as well as tactical and strategic DDD approaches. 
+          All of these were reflected in the hexagonal architecture. In the knowledge acquisition process, I utilized event storming.
+          
+          Responsibility
+          - Participation in and co-creation of numerous event storming sessions with domain experts
+          - Research and development of tools and their application
+          - Implementing business logic
+          - TDD approach with BDD
+          - Daily, reveiew, pari programming
+          - Database optimization before black friday
+
+      - layout: left
+        border: weak
+        title: TVT
+        sub_title: Software PHP Developer
+        caption: April 2018 - May 2019
+        description: |
+          Developing and modifying an internal system for managing post-production of films, which is delivered to television broadcasters. 
+          Each modification had to be verified, tested, and approved by the project manager, as we could not afford mistakes. 
+          
+          Responsibility
+          
+          - Developing an internal SaaS system
+          - Rewriting the system to Symfony
+          - Developing the system according to specifications
+          - Testing APIs in Behat
+          - Daily time estimations and task prioritization
+          - Swift response to reported errors, known as 'quick fixes'
+          - Optimizing SQL queries
+          
+          Stack: 
+          Symfony 3.3, PHP 7, Redis, AWS, MySQL, Twig, Doctrine, Behat, REST API, JMS, JSON-RPC, Git, Composer, Webpack, Vagrant, Docker, LESS, CodeIgniter
+
+      - layout: left
+        border: weak
+        title: Mamezi Stuio
+        sub_title: Software PHP Developer
+        caption: October 2015 - April 2017
+        description: |
+          Scope of my activities performed in this company:
+          
+          Responsibility: 
+          
+          - Developing the internal CRM system
+          - Expanding client services with new functionalities
+          - Bug fixing, code refactoring, writing better solutions
+          - Optimizing the service from both the backend and frontend perspectives
+          - Modifying e-commerce platforms such as Shoper, PrestaShop
+          - Writing plugins, expanding/modifying the WordPress platform
+          - Integrations with external systems such as:
+          - Bluevendo, MailChimp, MailerLite, UPS courier, Michelin, Shoper, Optima ERP, Instagram
+          - Custom integrations via CSV/XML files for stores and warehouses"
+          
+          Stack: 
+          Symfony 4.0, Kohana, Twig, Smarty, PHP 5.6/7.0, HTML, CSS, Gulp, JS, Ajax, jQuery, Bootstrap, SOAP, WSDL, Memcached, Git, Composer, Linux, LAMP
+
+
+footer_show_references: true
+references_title: ''
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
